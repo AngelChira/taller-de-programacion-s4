@@ -19,7 +19,7 @@ public class Semana04 {
             case 6, 7, 8, 9, 10:
                 montoPagar = (float) (5*2 + 4*3 + 3*(numeroHoras - 5));
             default:
-                montoPagar = (float) (5*2 + 4*3 + 3*5 + (numeroHoras - 10));
+                montoPagar = (float) (5*2 + 4*3 + 3*5 + 20*(numeroHoras - 10));
         }
         System.out.printf("El monto total a pagar es S/%.2f soles por %d horas. %n",montoPagar,numeroHoras);
     }
